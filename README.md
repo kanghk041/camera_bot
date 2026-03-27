@@ -21,8 +21,6 @@ person_follower_node
   - TFを用いてカメラ座標系からマップ座標系へ変換
   - Nav2アクションクライアント経由でゴール送信
   - 一定距離以内では停止
-        ↓
-Nav2 (NavigateToPose)
   - 経路計画・自律走行
 
 ## 使用環境
