@@ -49,7 +49,7 @@ person_follower_node
 
 ## 実行環境
 
-- Ubuntu 24.04
+- Windows 11 + WSL2 (Ubuntu 24.04)
 - ROS2 Jazzy
 - Python 3.12.3
 - Gazebo SIM
