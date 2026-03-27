@@ -1,0 +1,26 @@
+amcl:
+  ros__parameters:
+    use_map_topic: true
+    
+    base_frame_id: "base_link"
+    odom_frame_id: "odom"
+    global_frame_id: "map"
+
+    scan_topic: "/scan"
+
+    
+    min_particles: 500
+    max_particles: 3000
+
+    set_initial_pose: true
+    initial_pose:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      yaw: 0.0
+    
+    update_min_d: 0.1
+    update_min_a: 0.2
+    
+    transform_tolerance: 1.0
+    tf_broadcast: true
