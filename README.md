@@ -84,6 +84,7 @@ ros2 run my_package person_follower_node
 ## 今後の課題
 - 実機ロボットへの移行
 - 一回も人間を見つけなかった時の制御(回転、移動)
+- ゴール付近での細かい振動・往復動作の抑制
 
 ## 参考
 -  Robot hardware model based on [PinkyBot](https://github.com/PinkWink/pinky_for_edu) by PinkWink
