@@ -56,14 +56,15 @@ person_follower_node
 
 ## 実行方法
 bash
-(既に終わっている作業)
+# (既に終わっている作業)
 # マッピング
 ros2 launch camera_bot_navigation map_building.launch.xml
 # teleop_twist_keyboardでロボットを手動操作しながらLiDARデータを収集
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 # マップを保存
 ros2 run nav2_map_server map_saver_cli -f ~/map
-(実行)
+
+# (実行)
 # シミュレーター起動
 ros2 launch camera_bot_gazebo launch_sim_empty.launch.xml
 
