@@ -6,7 +6,7 @@ Gazebo シミュレーター上で実装・動作確認を行いました。
 
 ## デモ動画
 
-[YouTubeリンク]
+[YouTubeリンク] : https://www.youtube.com/watch?v=vw65ky0wy5c
 
 ## システム構成
 
